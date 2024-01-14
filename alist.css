@@ -1,0 +1,140 @@
+/*
+made by TheSmallHanCat
+尤其是御坂，要是再偷憨憨东西，一年没鱼吃，还要喂憨憨鱼
+未经允许不可偷代码！
+看到这行字表示同意，不许装没看到
+TheSmallHanCat6666
+TheSmallHanCat6666
+TheSmallHanCat6666
+Koyuki6666
+Koyuki6666
+Koyuki6666
+Koyuki6666
+*/
+
+body{
+	background-image:url('https://img.axyr.org.cn/image/wallhaven-l8zvl2.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+	@keyframes gradientBG {
+	    0% {
+		background-position: 0% 50%;
+		}
+
+		50% {
+		background-position: 100% 50%;
+		}
+
+		100% {
+		background-position: 0% 50%;
+		}
+	}
+.fish-container {
+				margin: 0;
+				padding: 0;
+				background-color: transparent;
+				width: 100%;
+				height: 200px;
+				z-index: -1;
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				opacity: .5;
+			}
+
+
+.hope-c-PJLV-igScBhH-css{
+    opacity: .8;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+.hope-c-PJLV-ijgzmFG-css{
+    opacity: .8; !important
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+.hope-c-PJLV-iigjoxS-css{
+    opacity: .7;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+.hope-c-PJLV-ikEIIxw-css{
+    opacity: .7;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+.hope-c-PJLV-iiuDLME-css{
+    opacity: .7;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+.hope-c-PJLV-ikSuVsl-css
+{
+    opacity: .7;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+.left-toolbar-box hope-c-PJLV hope-c-PJLV-ifiEvmt-css
+{
+    opacity: .7;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+/*当你看到这段文字的时候说明御坂已经偷袭进来了*/
+.sw-Hennnyano {
+    width: 224px;
+    height: 224px;
+    position: fixed;
+    left: 0;
+    z-index: 100;
+    pointer-events: auto!important;
+    -webkit-transition: bottom 1.3s cubic-bezier(0,2.06,.56,.78);
+    transition: bottom 1.3s cubic-bezier(0,2.06,.56,.78);
+    bottom: -230px
+}
+/*年轻人不讲武德*/
+/*你干嘛~诶呦~*/
+@media print,screen and (max-width: 1024px) {
+    .sw-Hennnyano {
+        width:25.26042vw;
+        height: 25.26042vw;
+        bottom: -25.26042vw
+    }
+}
+
+.sw-Hennnyano.show {
+    bottom: -60px
+}
+/*猫吃鱼是个不错的选择*/
+@media print,screen and (max-width: 1024px) {
+    .sw-Hennnyano.show {
+        bottom:-6.25vw
+    }
+}
+
+.sw-Hennnyano .body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url(https://api.hancat.link/cloud/img_hennyano_body.png) left bottom/contain no-repeat
+}
+/*特别是美味的炸鱼*/
+.sw-Hennnyano .eyes {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url(https://api.hancat.link/cloud/img_hennyano_eyes.png) left bottom/contain no-repeat
+}
+
+@media(any-hover: hover) {
+    .sw-Hennnyano:hover {
+        cursor:pointer!important
+    }
+}

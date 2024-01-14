@@ -1,0 +1,139 @@
+/*
+made by TheSmallHanCat
+尤其是御坂，要是再偷憨憨东西，一年没鱼吃，还要喂憨憨鱼
+未经允许不可偷代码！
+看到这行字表示同意，不许装没看到
+TheSmallHanCat6666
+TheSmallHanCat6666
+TheSmallHanCat6666
+Koyuki6666
+Koyuki6666
+Koyuki6666
+Koyuki6666
+https://t.mwm.moe/mp/
+*/
+
+:root {
+    --app-color: rgb(60, 20, 20);
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        background-image: url('https://t.mwm.moe/mp/');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        background-image: url('https://t.mwm.moe/pc/');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.var-elevation--1 {
+    background-color: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    backdrop-filter: blur(3px);
+}
+
+.var-card__floater {
+    background-color: rgba(255, 255, 255, 0.1);
+    !important justify-content: center;
+    backdrop-filter: blur(3px);
+}
+
+.var-elevation--4 {
+    background-color: rgba(85, 134, 238, 0.422);
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+.var-bottom-navigation {
+    background-color: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+.var-bottom-navigation-item--active {
+    background-color: rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+.var-elevation--3 {
+    background: #4e9dde;
+    background-color: rgba(85, 134, 238, 0.422);
+    backdrop-filter: blur(5px);
+}
+
+.var-app-bar {
+    background-color: rgba(78, 157, 222, 0.422) !important;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+.var-chip {
+    background-color: rgba(78, 157, 222, 0.422) !important;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+.var-tabs {
+    background-color: rgba(78, 157, 222, 0.422) !important;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+.var-button {
+    background-color: rgba(78, 157, 222, 0.422) !important;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+.var-app-bar__right {
+    display: none;
+}
+
+.var-select__controller {
+    display: none;
+}
+
+.var-chip--small {
+    display: none;
+}
+
+.var-select__line {
+    display: none;
+}
+
+p {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2)
+}
+
+vi {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2)
+}
+
+.tip-content {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2)
+}
